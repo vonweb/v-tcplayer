@@ -1,6 +1,6 @@
 {
   "name": "v-tcplayer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "files": [
     "types",
@@ -42,8 +42,5 @@
   },
   "peerDependencies": {
     "vue": "^2.6.10"
-  },
-  "dependencies": {
-    "v-tcplayer": "^0.0.1"
   }
 }
