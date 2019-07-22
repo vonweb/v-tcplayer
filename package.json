@@ -11,10 +11,11 @@
     "build": "rollup -c"
   },
   "typings": "types/index.d.ts",
-  "description": "Vue component for TcPlayer ",
+  "description": "Vue component for TCPlayer Lite",
   "keywords": [
     "Vue",
-    "TcPlayer"
+    "TcPlayer",
+    "TCPlayer Lite"
   ],
   "repository": {
     "type": "git",

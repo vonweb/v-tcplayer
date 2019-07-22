@@ -1,6 +1,6 @@
 # v-tcplayer
 
-A Vue.js 2 component for [TcPlayer](https://cloud.tencent.com/document/product/881/20207)
+A Vue.js 2 component for [TCPlayer Lite](https://cloud.tencent.com/document/product/881/20207)
 
 ## 安装
 - ### npm / yarn
