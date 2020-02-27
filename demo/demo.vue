@@ -1,7 +1,7 @@
 <template>
   <div>
     <VTcPlayer :options="options" @load="onLoad" @play="onPlay" />
-    <V-TcPlayer :options="options" elmId="tcPlayer2" />
+    <V-TcPlayer :options="liveoptions" elmId="tcPlayer2" />
   </div>
 </template>
 
@@ -10,6 +10,13 @@ import { VTcPlayer } from '../src/index'
 export default {
   data () {
     return {
+      liveoptions: {
+        hlsUrl: 'https://lib.baomitu.com/hls.js/0.12.4/hls.min.js',
+        width: 800,
+        height: 450,
+        m3u8: 'http://5170.liveplay.myqcloud.com/live/5170_2c7dab752af722dafad5d52c24c0c6ca.m3u8',
+        live: true,
+      },
       options: {
         hlsUrl: 'https://lib.baomitu.com/hls.js/0.8.9/hls.min.js',
         width: 800,
