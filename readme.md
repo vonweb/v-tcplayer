@@ -3,17 +3,17 @@
 A Vue.js 2 component for [TCPlayer Lite](https://cloud.tencent.com/document/product/881/20207)
 
 ## 安装
-- ### npm / yarn
+### npm / yarn
 `npm install --save v-tcplayer`或`yarn add v-tcplayer`
 
-- ### 引入
-##### 全局引入
+## 引入
+### 全局引入
 ```js
 import VTcPlayer from 'v-tcplayer'
 Vue.use(VTcPlayer, { name: 'V-TcPlayer' })
 ```
 
-##### 局部引入
+### 局部引入
 ```js
 import { VTcPlayer } from 'v-tcplayer'
 ```

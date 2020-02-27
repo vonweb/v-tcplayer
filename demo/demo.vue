@@ -16,6 +16,7 @@ export default {
         height: 450,
         m3u8: 'http://5170.liveplay.myqcloud.com/live/5170_2c7dab752af722dafad5d52c24c0c6ca.m3u8',
         live: true,
+        // x5_player: true,
       },
       options: {
         hlsUrl: 'https://lib.baomitu.com/hls.js/0.8.9/hls.min.js',
